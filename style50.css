@@ -6,15 +6,12 @@
     padding: 0.5rem;
 }
 
-
 .navbar-brand{
     font-weight: 500;
     color: #009970;
     font-size: 24px;
     transition: 0.3s color;
-
 }
-
 
 .login-button{
     background-color: #009970;
@@ -32,8 +29,7 @@
 
 .navbar-toggler{
     border: none;
-    font-size: 1.5 rem;
-   
+    font-size: 1.5rem;
 }
 
 .navbar-toggler:focus, .btn-close:focus{
@@ -41,7 +37,7 @@
     outline: none;
 }
 
-.navlink{
+.nav-link{
     color: #666777;
     font-weight: 500;
     position: relative;
@@ -53,10 +49,8 @@
 
 @media (min-width: 991px){
 
-
-
 .nav-link::before{
-    content: " ";
+    content: "";
     position: absolute;
     bottom: 0;
     left: 50;
@@ -68,11 +62,9 @@
     transition: 0.3s ease-in-out;
 }
 
-
 .nav-link:hover::before, .nav-link.active::before{
     width: 100%;
     visibility: visible;
-
 }
 }
 
@@ -80,18 +72,16 @@
     background: url(images/hero-bg.png) no-repeat center;
     background-size: cover;
     width: 100%;
-   
 }
 
 .hero-section::before{
     background-color: rgba(0, 0, 0, 0.6);
-    content: " ";
+    content: "";
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-
 }
 
 .hero-section .container{
@@ -99,8 +89,7 @@
     z-index: 1;
     position: relative;
 }
-  
+
 .hero-section h1{
     font-size: 1.5em;
 }
-
